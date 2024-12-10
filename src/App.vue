@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
@@ -23,4 +23,17 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-</style>
+</style> -->
+<template>
+  <div id="app">
+    <MyCalendar />
+  </div>
+</template>
+
+<script>
+import MyCalendar from "./components/MyCalendar.vue";
+
+export default {
+  components: { MyCalendar },
+};
+</script>
